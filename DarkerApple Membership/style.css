@@ -1,0 +1,56 @@
+/*Basic CSS Code*/
+*{
+    font-family: "Gluten", cursive;
+    font-size: 24px;
+    font-weight: 500;
+    color:aliceblue;
+    background-color: #2b2b2b;
+    padding: 10px;
+    left:10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+div.line{
+    border-bottom: 1px solid aliceblue
+}
+
+div.br{
+    padding:20px
+}
+/*Other CSS Stuff*/
+#mySubmit{
+    width: 200;
+    height: 113;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:aliceblue;
+    font-size: 1em;
+    transition: background-color 0.5s;
+}
+
+#mySubmit:hover{
+    background-color: #626262;
+}
+
+#subResult{
+    color:aquamarine;
+}
+
+#paymentResult{
+    color:rgb(255, 246, 160);
+}
+
+#header{
+    font-weight: 1000;
+    font-size: 100px;
+    color:rgb(181, 237, 237);
+    font-family: "Jua", sans-serif;
+}
+
+#subcribeBtn{
+    font-size: 100px;
+    color:red;
+}
